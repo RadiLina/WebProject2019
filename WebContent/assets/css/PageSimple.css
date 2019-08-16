@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(../../images/background-image.jpg);
+	background-size:100%;
+	
+}
+
+
+#contenu{
+
+  position: relative;
+  top:300px;
+  width:800px;
+  right:200px;
+  font-size: 15px;
+  float:right;
+}
+#gestionnaire{
+
+  position:relative;
+  top:35px;
+  /*float: left;*/
+  font-family: "Roboto",sans-serif;
+  color:white;
+  font-size: 15px;
+  vertical-align: middle;
+        display: inline-block;
+
+}
+#img-gestionnaire{
+   width:40px; /*width of your image*/
+   height:40px; /*height of your image*/
+   background-image:url("../../images/gestionnaire2.png");
+   background-size:100%;
+   background-position:center;
+   margin-left:7px; /* If you want no margin */
+   margin-right:7px;
+   border:2px;
+   border-radius:50%;
+   padding:0; /*if your want to padding */
+	 vertical-align: middle;
+        display: inline-block;
+}
+/* code menu */
+.menu ul{
+  list-style: none;
+  margin: 0;
+  float:left;
+  
+  position: relative;
+  top:245px;
+
+}
+.menu ul li{
+  padding: 20px;
+  position: relative;
+  width: 200px;
+  background-color: #6cc091;
+  border-top: 2px solid white;
+  border-radius: 10px;
+}
+.menu ul li:hover{
+  background-color: #958676;;
+  text-decoration-color:  #958676;
+}
+.menu ul li:hover >ul {
+  opacity: 1;
+  visibility: visible;
+  left: 100%;
+  top:auto;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+span{
+  margin-right: 15px;
+
+}
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+
+}
+.main-nav li {
+  display: inline-block;
+}
+.main-nav li a {
+  color: white;
+  text-decoration:none;
+  padding: 5px 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+}
+
+
+.main-nav li.active a{
+  border: 1px solid white;
+}
+ .main-nav li a:hover{
+  border: 1px solid white;
+}
+
+body{
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+ height: 100vh;
+  width:100%;
+  /*background-image: url(../../images/pexels-photo-305070.jpeg);
+  background-size: cover;
+ 
+  float:right;*/
+  
+}
+.titre{
+  position: absolute;
+  width: 1200px;
+  margin-left: 190px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+ 
+
+ 
+#header{
+   position: relative;
+  top:280px;
+  left:50px;
+ 
+	}
